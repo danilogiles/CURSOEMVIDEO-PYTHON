@@ -1,0 +1,5 @@
+n1=int(input('Digite um numero '))
+ant=int(n1-1)
+suc=int(n1+1)
+print(f'Analisando o numero {n1}: \n seu antecessor e {ant} \n seu sucessor e {suc}')
+print(f'Analisando o numero {n1}: \n seu antecessor e {n1-1} \n seu sucessor e {n1+1}')

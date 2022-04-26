@@ -1,0 +1,5 @@
+nome=str(input('Digite o nome completo: ')).strip()
+lista=nome.split()
+print(f'Primeiro: ', lista[0])
+print(f'Ultimo: {lista[len(lista)-1]}')
+print(f'Ultimo: ', lista.pop())
